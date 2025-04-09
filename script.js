@@ -40,7 +40,7 @@ function handleMove(square) {
     const prevRow = selectedSquare.dataset.row;
     const prevCol = selectedSquare.dataset.col;
 
-    // Move a peça
+    
     initialBoard[row][col] = initialBoard[prevRow][prevCol];
     initialBoard[prevRow][prevCol] = "";
 
